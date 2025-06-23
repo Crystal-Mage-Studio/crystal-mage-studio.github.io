@@ -1,0 +1,38 @@
+baseURL = "https://crystal-mage-studio.github.io"
+disableKinds = ["section", "taxonomy", "term", "404"]
+defaultContentLanguage = "en"
+theme = "hugo-product-launch"
+title = "Crystal Mage Studio"
+
+# Render line-breaks in .md-files as line-breaks in HTML.
+# This is e.g. useful for rendering a multi-line address.
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+# A "copyright"-line to be added at the bottom of the page.
+# Hint: Markdown is supported in here as well. So you may e.g. add a link to your legal imprint-page.
+copyright = "© 2025 Crystal Mage Studio. All rights reserved."
+
+# The "description" of your website. This is used in the meta data of your generated html.
+description = "Indie studio crafting magical, narrative-rich games where resilience is part of the journey. Discover the unknown, master the arcane, and endure the adventure."
+
+# The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
+# Hint: It's good practise to also put a "favicon.ico"-file into your "static"-folder.
+favicon = "favicon-32x32.png"
+
+# These "images" are used for the structured data templates. This will show up, when
+# services like Twitter or Slack want to generate a preview of a link to your site.
+# See https://gohugo.io/templates/internal#twitter-cards and
+# https://gohugo.io/templates/internal#open-graph.
+images = ["crystal_mage_studio_banner_stylized.png"]
+
+# Another "title" :-). This one is used as the site_name on the Hugo's internal
+# opengraph structured data template.
+# See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
+title = "Crystal Mage Studio"
+
+[params.meta]
+keywords = "crystal, mage, studio, video, game, development, dev, indie, jam"
